@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Navbar.css";
 import { NavLink, useNavigate} from "react-router-dom";
-import logo from "../assets/Logo.jpg";
+import logo from "../../assets/Logo.jpg";
 
 function Navbar() {
   const navigate = useNavigate()
