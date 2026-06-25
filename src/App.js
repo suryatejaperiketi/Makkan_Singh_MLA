@@ -1,12 +1,12 @@
 import './App.css';
-import HeroSection from './Components/LandingPage/HeroSection';
+import LandingPage from './Components/LandingPage/LandingPage';
 import Navbar from './Components/LandingPage/NavBar';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <HeroSection/>
+      <LandingPage/>
     </div>
   );
 }
